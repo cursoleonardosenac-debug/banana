@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toolkit Interativo</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>kick</h1>
+    
+            <div class="section">
+                <h2>alternador de textos</h2>
+                <p id="texto-alternavel"> Este é o texto inicial</p>
+                <button id="alternar-texto-btn">alternar texto</button>
+            </div>
+
+            <div class="section">
+                <h2>alternador de imagem</h2>
+                <img id="imagem" src="imagem1.jpg" alt="imagem 1">
+                <button id="alternar-imagem-btn"> Alternar Imagem</button>
+            </div>
+
+            <div class="section">
+                <h2> Alternador de Temas</h2>
+                <p>Clique no botão para alternar entre o tema claro e escuro</p>
+                <button id="alternar-tema-btn"> Ativar Tema Escuro</button>
+            </div>
+
+            <div class="section">
+              <h2>Contador de Cliques</h2>
+              <p>O botao abaixo ja foi clicado</p>
+               <span id="Contador">0</span>
+               <p>vezes</p>
+              <button id="contador-btn">Clique para contar</button>
+            </div>
+
+            <div class="section">
+                <h2>Barra de progresso</h2>
+                <div id="barra-progresso">
+                    <div id="progresso-atual"></div>
+                </div>
+                <button id="avancar-progresso-btn">Avançar progresso</button>
+            </div>
+
+            <div class="section">
+                <h2>validador de senhas </h2>
+                <p>Digite "Senha123" para testar</p>
+                <input type="password" id="senha-input" placeholder="Digite a senha">
+                <button id="validar-senha-btn">validar senha</button>
+                <p id="senha-feedback"></p>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
